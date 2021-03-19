@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,
+
+/*#53B0BD #3B566E*/
+
+body {
+    background: lightseagreen !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .form {
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .form form .form-control {
+    height: 40px;
+    font-size: 15px;
+}
+
+.container .form form .button {
+    background: #3B566E;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.container .form form .button:hover {
+    background: #53b0bd;
+}
+
+.container .form form .link {
+    padding: 5px 0;
+}
+
+.container .form form .link a {
+    color: #53b0bd;
+}
+
+.container .login-form form p {
+    font-size: 14px;
+}
+
+.container .row .alert {
+    font-size: 14px;
+}
